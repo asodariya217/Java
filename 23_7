@@ -1,0 +1,37 @@
+Inheritance:When one object acquire all the properties
+and behaviour of parent class
+
+types of inheritance
+1)Single
+2)Multilevel
+3)Multiple
+4)Hierarchical
+5)Hybrid
+
+=>Multiple Inheritance is not supported in java
+
+=>Interface:Collection of abstract methods
+=>abstract method:which does not have a body part
+
+void a()
+{
+	//body part
+}
+
+void a();
+
+----------------------------------------------
+Keywords:this,super,static,final
+
+this=>Refrence Pass
+Super=>Parenr class variable refer
+static=>Variable,Method,block
+final=>Variable,Method,class
+
+Wrapper Class
+
+int
+Integer
+
+
+
