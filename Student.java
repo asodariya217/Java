@@ -1,32 +1,19 @@
-package July21;
+package a28_7;
+import java.io.Serializable;
 
-public class Student
+public class Student implements Serializable
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int id;
 	String name;
-
-	public static void main(String[] args) 
+	
+	public Student(int id,String name) 
 	{
-
-			//classname objname = new classname();
-
-			Student s1 = new Student();//object
-			Student s2 = new Student();
-			Student s3 = new Student();
-
-			s1.id=101;
-			s1.name="Prakruti";
-
-			s2.id=102;
-			s2.name="abhi";
-
-			s3.id=103;
-			s3.name="gaurang";
-
-			System.out.println(s1.id+" "+s1.name);
-			System.out.println(s2.id+" "+s2.name);
-			System.out.println(s3.id+" "+s3.name);
-
+		// TODO Auto-generated constructor stub
+		this.id=id;
+		this.name=name;
 	}
 }
-
